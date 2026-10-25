@@ -29,8 +29,11 @@ const CONFIG = {
   formEmail: "info@filingsakhi.com",
 
   // Office details (shown on Contact page)
-  address: "Your office address, City, State – PIN",
+  address: "17, Heera Panna Market, Pur Road, Bhilwara, Rajasthan 311001",
   hours: "Mon–Sat, 10:00 AM – 7:00 PM",
+
+  // Short note shown under the office address
+  visitNote: "Office visits by prior appointment only — please message us to schedule.",
 
   // Default message pre-filled when someone taps a generic WhatsApp button
   defaultMessage: "Hi FilingSakhi, I'd like to enquire about your services.",
@@ -717,6 +720,7 @@ const MENU = [
     });
     document.querySelectorAll("[data-cfg-address]").forEach(function (el) { el.textContent = CONFIG.address; });
     document.querySelectorAll("[data-cfg-hours]").forEach(function (el) { el.textContent = CONFIG.hours; });
+    document.querySelectorAll("[data-cfg-visitnote]").forEach(function (el) { el.textContent = CONFIG.visitNote; });
     document.querySelectorAll("#year").forEach(function (el) { el.textContent = new Date().getFullYear(); });
   }
 
