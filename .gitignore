@@ -1,1 +1,5 @@
 .DS_Store
+
+# Private context/infra docs — kept locally & in the zip backup, never in the public repo
+DEPLOYMENT.md
+PROJECT_CONTEXT.md
