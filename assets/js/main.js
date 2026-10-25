@@ -19,14 +19,14 @@ const CONFIG = {
   phone: "+91 94685 33295",
 
   // Email address for the email links
-  email: "hello@example.com",
+  email: "info@filingsakhi.com",
 
   // FormSubmit.co destination — where contact-form enquiries are emailed.
   // Put your friend's real email here. On the FIRST submission FormSubmit sends
   // a one-time confirmation email to this address — click the link to activate.
   // (Optional, more private: after activating, replace this with the random
   //  FormSubmit alias string they give you, e.g. "a1b2c3d4e5".)
-  formEmail: "your-email@example.com",
+  formEmail: "info@filingsakhi.com",
 
   // Office details (shown on Contact page)
   address: "Your office address, City, State – PIN",
